@@ -126,3 +126,6 @@
 2020-07-05 15:28:04 - PHP Notice:  Undefined index:  in D:\wamp\www\devranch\system\library\cart\currency.php on line 30
 2020-07-07 14:25:36 - PHP Notice:  getimagesize(): Read error! in D:\wamp\www\devranch\catalog\model\tool\image.php on line 14
 2020-07-07 14:25:43 - PHP Notice:  getimagesize(): Read error! in D:\wamp\www\devranch\catalog\model\tool\image.php on line 14
+2020-07-07 14:44:49 - PHP Notice:  getimagesize(): Read error! in D:\wamp\www\devranch\catalog\model\tool\image.php on line 14
+2020-07-07 14:44:57 - PHP Notice:  getimagesize(): Read error! in D:\wamp\www\devranch\catalog\model\tool\image.php on line 14
+2020-07-07 14:45:00 - PHP Notice:  getimagesize(): Read error! in D:\wamp\www\devranch\catalog\model\tool\image.php on line 14
