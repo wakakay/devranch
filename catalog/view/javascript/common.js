@@ -70,11 +70,11 @@ $(document).ready(function() {
 	});
 
 	// Menu
-	$('#menu .dropdown-menu').each(function() {
-		var menu = $('#menu').offset();
+	$('.module-menu .dropdown-menu').each(function() {
+		var menu = $('.module-menu').offset();
 		var dropdown = $(this).parent().offset();
 
-		var i = (dropdown.left + $(this).outerWidth()) - (menu.left + $('#menu').outerWidth());
+		var i = (dropdown.left + $(this).outerWidth()) - (menu.left + $('.module-menu').outerWidth());
 
 		if (i > 0) {
 			$(this).css('margin-left', '-' + (i + 10) + 'px');

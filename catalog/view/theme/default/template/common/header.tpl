@@ -119,15 +119,17 @@
 <div class="module-container">
   <?php if ($categories) { ?>
   <div class="container">
-    <nav class="module-menu navbar">
+    <nav class="module-menu navbar" flex="dir:left">
       <div class="navbar-header"><span id="category" class="visible-xs"><?php echo $text_category; ?></span>
         <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"><i class="fa fa-bars"></i></button>
       </div>
+
+      <h4 flex="main:center cross:center">
+        <a href="<?php echo $categories[0]['href']; ?>"><?php echo $categories[0]['name']; ?></a>
+      </h4>
+
       <div class="collapse navbar-collapse navbar-ex1-collapse">
         <ul class="nav navbar-nav">
-            <li class="cell-title">
-                <a href="<?php echo $categories[0]['href']; ?>"><?php echo $categories[0]['name']; ?></a>
-            </li>
             <li>
                 <a href="<?php echo $home; ?>">HOME</a>
             </li>
