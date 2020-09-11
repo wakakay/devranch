@@ -456,3 +456,226 @@
 2020-07-26 14:10:30 - PHP Notice:  Undefined variable: home in D:\wamp\www\devranch\catalog\view\theme\default\template\extension\module\category.tpl on line 31
 2020-07-26 14:11:57 - PHP Notice:  Undefined variable: text_category in D:\wamp\www\devranch\catalog\view\theme\default\template\extension\module\category.tpl on line 22
 2020-07-26 14:11:57 - PHP Notice:  Undefined variable: home in D:\wamp\www\devranch\catalog\view\theme\default\template\extension\module\category.tpl on line 31
+2020-08-30 10:46:07 - Array
+(
+    [error] => SSL certificate problem: unable to get local issuer certificate
+    [errno] => 60
+)
+
+2020-08-30 10:46:07 - eWAY Payment error: text_card_message_POST Error: SSL certificate problem: unable to get local issuer certificate URL: https://api.ewaypayments.com/AccessCodesShared<br />
+
+2020-08-30 10:49:17 - Array
+(
+    [error] => SSL certificate problem: unable to get local issuer certificate
+    [errno] => 60
+)
+
+2020-08-30 10:49:17 - eWAY Payment error: text_card_message_POST Error: SSL certificate problem: unable to get local issuer certificate URL: https://api.ewaypayments.com/AccessCodesShared<br />
+
+2020-08-30 10:50:07 - Array
+(
+    [error] => SSL certificate problem: unable to get local issuer certificate
+    [errno] => 60
+)
+
+2020-08-30 10:50:07 - eWAY Payment error: text_card_message_POST Error: SSL certificate problem: unable to get local issuer certificate URL: https://api.sandbox.ewaypayments.com/AccessCodesShared<br />
+
+2020-08-30 10:51:53 - Array
+(
+    [error] => SSL certificate problem: unable to get local issuer certificate
+    [errno] => 60
+)
+
+2020-08-30 10:51:53 - eWAY Payment error: text_card_message_POST Error: SSL certificate problem: unable to get local issuer certificate URL: https://api.ewaypayments.com/AccessCodesShared<br />
+
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:41:04 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:50:26 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 25
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 26
+2020-09-04 16:50:29 - PHP Notice:  Undefined index: USD in D:\wamp\www\devranch\system\library\cart\currency.php on line 27
+2020-09-06 3:41:43 - Array
+(
+    [error] => SSL certificate problem: unable to get local issuer certificate
+    [errno] => 60
+)
+
+2020-09-06 3:41:43 - eWAY Payment error: text_card_message_POST Error: SSL certificate problem: unable to get local issuer certificate URL: https://api.ewaypayments.com/AccessCodesShared<br />
+
+2020-09-08 16:07:21 - PHP Notice:  Undefined variable: text_telephone in D:\wamp\www\devranch\catalog\view\theme\default\template\common\header.tpl on line 85
+2020-09-08 16:07:21 - PHP Notice:  Undefined variable: text_telephone in D:\wamp\www\devranch\catalog\view\theme\default\template\common\header.tpl on line 85
+2020-09-08 16:07:23 - PHP Notice:  Undefined variable: text_telephone in D:\wamp\www\devranch\catalog\view\theme\default\template\common\header.tpl on line 85

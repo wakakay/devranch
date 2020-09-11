@@ -41,80 +41,53 @@
 
 <div class="ui-header">
   <div class="ui-container">
-    <div class="container">
-      <div class="loginres">
-        <?php if (!$logged) { ?>
-        <?php echo $text_welcome; ?>
-        <?php } else { ?>
-        <?php echo $text_logged; ?>
-        <?php } ?>
+    <div class="container" flex="dir:left box:last show:visible">
+      <div flex="dir:left box:first">
+        <div class="loginres">
+          <?php if (!$logged) { ?>
+          <?php echo $text_welcome; ?>
+          <?php } else { ?>
+          <?php echo $text_logged; ?>
+          <?php } ?>
+        </div>
+
+        <?php echo $search; ?>
       </div>
 
-      <?php echo $search; ?>
-
-       <div class="ui-cart-box"><?php echo $cart; ?></div>
+       <div>
+         <div class="ui-cart-box"><?php echo $cart; ?></div>
+       </div>
     </div>
   </div>
 </div>
 
 <header class="module-container">
   <div class="container">
-    <div class="row">
-      <div class="col-sm-3">
-        <div id="logo">
-          <?php if ($logo) { ?>
-          <a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" /></a>
-          <?php } else { ?>
-          <h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1>
-          <?php } ?>
-        </div>
+    <div class="row ui-header-logo" flex="dir:left">
+      <div id="logo">
+        <?php if ($logo) { ?>
+        <a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" class="img-responsive" /></a>
+        <?php } else { ?>
+        <h1><a href="<?php echo $home; ?>"><?php echo $name; ?></a></h1>
+        <?php } ?>
       </div>
 
-      <div class="ui-introduce col-sm-7">
-        <p>WE ARE STILL OPEN AND TRADING !!   </p>
-        <p>RESTRINGS WHILE YOU WAIT !! </p>
-        <p>THURSDAYS WILL NOW BE 10-5.30( No Late Night)</p>
+      <div class="ui-introduce" flex="main:center cross:center">
+        <div>
+          <p>WE ARE STILL OPEN AND TRADING !! </p>
+          <p>RESTRINGS WHILE YOU WAIT !! </p>
+          <p>THURSDAYS WILL NOW BE 10-5.30( No Late Night)</p>
+        </div>
       </div>
     </div>
 
+    <div class="ui-contactus">
+      <span>PHONE: <a href="tel:98163666"> (02) 98163666</a></span>
+      <span>EMAIL: <a class="email" href="https://web.archive.org/web/20200320233721/mailto:trumps@tennisranch.com.au">trumps@tennisranch.com.au</a></span>
+      <span>ADDRESS: 128 Victoria Road Gladesville , NSW, 2111</span>
     </div>
   </div>
 </header>
-
-<!--<div class="module-container">
-  <?php if ($categories) { ?>
-  <div class="container">
-    <nav id="menu" class="navbar">
-      <div class="navbar-header"><span id="category" class="visible-xs"><?php echo $text_category; ?></span>
-        <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"><i class="fa fa-bars"></i></button>
-      </div>
-      <div class="collapse navbar-collapse navbar-ex1-collapse">
-        <ul class="nav navbar-nav">
-          <?php foreach ($categories as $category) { ?>
-          <?php if ($category['children']) { ?>
-          <li class="dropdown"><a href="<?php echo $category['href']; ?>" class="dropdown-toggle" data-toggle="dropdown"><?php echo $category['name']; ?></a>
-            <div class="dropdown-menu">
-              <div class="dropdown-inner">
-                <?php foreach (array_chunk($category['children'], ceil(count($category['children']) / $category['column'])) as $children) { ?>
-                <ul class="list-unstyled">
-                  <?php foreach ($children as $child) { ?>
-                  <li><a href="<?php echo $child['href']; ?>"><?php echo $child['name']; ?></a></li>
-                  <?php } ?>
-                </ul>
-                <?php } ?>
-              </div>
-              <a href="<?php echo $category['href']; ?>" class="see-all"><?php echo $text_all; ?> <?php echo $category['name']; ?></a> </div>
-          </li>
-          <?php } else { ?>
-          <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
-          <?php } ?>
-          <?php } ?>
-        </ul>
-      </div>
-    </nav>
-  </div>
-  <?php } ?>
-</div>-->
 
 <div class="module-container">
   <?php if ($categories) { ?>

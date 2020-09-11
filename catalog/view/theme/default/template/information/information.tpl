@@ -13,9 +13,12 @@
     <?php } else { ?>
     <?php $class = 'col-sm-12'; ?>
     <?php } ?>
-    <div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?>
-      <h1><?php echo $heading_title; ?></h1>
-      <?php echo $description; ?><?php echo $content_bottom; ?></div>
+    <div id="content" class="module-information <?php echo $class; ?>"><?php echo $content_top; ?>
+      <div class="ui-content">
+        <h1><?php echo $heading_title; ?></h1>
+        <?php echo $description; ?><?php echo $content_bottom; ?>
+      </div>
+    </div>
     <?php echo $column_right; ?></div>
 </div>
 <?php echo $footer; ?>

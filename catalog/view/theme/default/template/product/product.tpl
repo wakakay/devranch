@@ -293,7 +293,10 @@
               <input type="text" name="quantity" value="<?php echo $minimum; ?>" size="2" id="input-quantity" class="form-control" />
               <input type="hidden" name="product_id" value="<?php echo $product_id; ?>" />
               <br />
-              <button type="button" id="button-cart" data-loading-text="<?php echo $text_loading; ?>" class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
+
+              <button type="button" id="button-cart" <?php if ($stock === 'Out Of Stock') { echo 'disabled=disabled'; }?>
+                      data-loading-text="<?php echo $text_loading; ?>"
+                      class="btn btn-primary btn-lg btn-block"><?php echo $button_cart; ?></button>
             </div>
             <?php if ($minimum > 1) { ?>
             <div class="alert alert-info"><i class="fa fa-info-circle"></i> <?php echo $text_minimum; ?></div>
@@ -452,11 +455,15 @@ $('#button-cart').on('click', function() {
 			}
 
 			if (json['success']) {
-				$('.breadcrumb').after('<div class="alert alert-success">' + json['success'] + '<button type="button" class="close" data-dismiss="alert">&times;</button></div>');
+				$('#button-cart').before('<div class="alert alert-success">' + json['success'] + '<button type="button" class="close" data-dismiss="alert">&times;</button></div>');
 
                 $('.cart-total-content').html(json['total'] + json['totalItem']);
 
-				$('html, body').animate({ scrollTop: 0 }, 'slow');
+				$('html, body').animate({ scrollTop: 300 }, 'slow');
+
+                setTimeout(function() {
+                  $('.alert-success').remove();
+                }, 2500);
 
 				$('#cart > ul').load('index.php?route=common/cart/info ul li');
 			}
