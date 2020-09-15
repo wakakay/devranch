@@ -23,13 +23,14 @@ class ModelExtensionShippingWeight extends Model {
 			if ($status) {
 				$cost = '';
 				$weight = $this->cart->getWeight();
+				$subtotal = $this->cart->getSubTotal(); // 购物车的总价
 
 				$rates = explode(',', $this->config->get('weight_' . $result['geo_zone_id'] . '_rate'));
 
 				foreach ($rates as $rate) {
 					$data = explode(':', $rate);
 
-					if ($data[0] >= $weight) {
+					if ($data[0] >= $subtotal) {
 						if (isset($data[1])) {
 							$cost = $data[1];
 						}
@@ -41,7 +42,7 @@ class ModelExtensionShippingWeight extends Model {
 				if ((string)$cost != '') {
 					$quote_data['weight_' . $result['geo_zone_id']] = array(
 						'code'         => 'weight.weight_' . $result['geo_zone_id'],
-						'title'        => $result['name'] . '  (' . $this->language->get('text_weight') . ' ' . $this->weight->format($weight, $this->config->get('config_weight_class_id')) . ')',
+						'title'        => $result['name'], //$result['name'] . '  (' . $this->language->get('text_weight') . ' ' . $this->weight->format($weight, $this->config->get('config_weight_class_id')) . ')',
 						'cost'         => $cost,
 						'tax_class_id' => $this->config->get('weight_tax_class_id'),
 						'text'         => $this->currency->format($this->tax->calculate($cost, $this->config->get('weight_tax_class_id'), $this->config->get('config_tax')), $this->session->data['currency'])
