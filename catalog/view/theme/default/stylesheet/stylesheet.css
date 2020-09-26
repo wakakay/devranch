@@ -224,9 +224,10 @@ h2.price{margin:0;font-size:27px;color:#454545;}
 .btn-info:hover,.btn-info:active,.btn-info.active,.btn-info.disabled,.btn-info[disabled]{background-image:none;background-color:#df5c39;}
 
 /* 文章 */
-.module-information .ui-content{padding:0 10px;}
-.module-information h1{font-size:24px;margin:20px 0;}
-.module-information p{font-szie:14px;line-height:18px;margin:4px 0 10px;}
+.module-information .ui-content{padding:0 10px 20px;}
+.module-information h1{margin:20px 0;font-size:30px;font-weight:700;color:#b6ed2c;}
+.module-information p.cell-title{font-size:16px;paddingp:4px 0;}
+.module-information p{font-size:13px;line-height:18px;margin:4px 0 10px;}
 
 /* 联系我们 */
 .module-contact{}
