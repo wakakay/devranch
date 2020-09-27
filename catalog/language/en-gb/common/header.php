@@ -14,5 +14,5 @@ $_['text_logout']        = 'Logout';
 $_['text_checkout']      = 'Checkout';
 $_['text_search']        = 'Search';
 $_['text_all']           = 'Show All';
-$_['text_logged']        = '<span>HI , <b><a href="%s" style="color:red">%s</a></b>&nbsp;&nbsp;&nbsp;&nbsp;<a href="%s">Logout</a> </span>';
-$_['text_welcome']       = '<a href="%s" class="login">login</a> | <a href="%s">Create An Account</a>';
+$_['text_logged']        = '<span>HI , <b><a href="%s" style="color:red">%s</a></b>&nbsp;&nbsp;&nbsp;&nbsp;<a href="?route=account/logout">Logout</a> </span>';
+$_['text_welcome']       = '<a href="?route=account/login" class="login">login</a> | <a href="?route=account/register">Create An Account</a>';

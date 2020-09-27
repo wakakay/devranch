@@ -1,0 +1,32 @@
+<modification>
+	<name>Out Of Stock Product Option Disable</name>
+    <version>2.X - 3.X</version>
+    <link>http://www.opencarttools.net</link>
+    <author>opencarttools@gmail.com</author>
+    <code>31671</code>	
+	<file path="catalog/controller/common/footer.php">
+		<operation error="skip">
+            <search position="after"><![CDATA[function index]]></search>
+            <add position="after"><![CDATA[if($this->config->get('outstckoptdis_status') && isset($this->request->get['product_id']) && $this->request->get['product_id'] > 0 && isset($this->request->get['route']) && stristr($this->request->get['route'], 'product/product')) {
+			$this->session->data['outstckoptdis_route'] = isset($this->request->get['route']) ? $this->request->get['route'] : '';
+			$this->session->data['outstckoptdis_product_id'] = isset($this->request->get['product_id']) ? $this->request->get['product_id'] : 0;
+			$this->document->addScript('catalog/view/javascript/outstckoptdis.js');
+			}]]></add> 
+        </operation>
+    </file>
+	<file path="catalog/model/catalog/product.php">
+		<operation error="skip">
+            <search position="before"><![CDATA[$product_option_value_data[] = array(]]></search>
+			<add position="before"><![CDATA[if($this->config->get('outstckoptdis_status') && $product_option_value['quantity'] <= 0) {
+				$outstckoptdis_outstcktext = $this->config->get('outstckoptdis_outstcktext');
+				$product_option_value['name'] .= $outstckoptdis_outstcktext[(int)$this->config->get('config_language_id')];
+ 			}]]></add>
+        </operation>
+  	</file> 
+	<file path="catalog/controller/product/product.php">
+		<operation error="skip">
+            <search position="replace"><![CDATA[if (!$option_value['subtract'] || ($option_value['quantity'] > 0)) {]]></search>
+			<add position="replace"><![CDATA[if (!$option_value['subtract'] || ($option_value['quantity'] != '')) {]]></add>
+        </operation>
+  	</file>
+</modification>
