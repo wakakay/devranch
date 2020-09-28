@@ -32,6 +32,15 @@ $(document).ready(function() {
     }
   });
 
+  $('.button-search').bind('click', function(e) {
+    var url = 'index.php?route=product/search';
+    var search = $('#search input[name=\'search\']').prop('value');
+    if (search) {
+      url += '&search=' + encodeURIComponent(search);
+    }
+    window.location.href = url
+  });
+
   // Currency
   $('#form-currency .currency-select').on('click', function(e) {
     e.preventDefault();
