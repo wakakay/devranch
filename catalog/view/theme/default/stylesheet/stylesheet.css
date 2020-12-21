@@ -9,6 +9,7 @@ h5{font-size:12px;}
 h6{font-size:10.2px;}
 a{color:#777}
 a:hover{color:#85CA3A;text-decoration:none;}
+ul li{list-style:none}
 legend{font-size:18px;padding:7px 0}
 label{font-size:12px;font-weight:normal}
 select.form-control,textarea.form-control,input[type="text"].form-control,input[type="password"].form-control,input[type="datetime"].form-control,input[type="datetime-local"].form-control,input[type="date"].form-control,input[type="month"].form-control,input[type="time"].form-control,input[type="week"].form-control,input[type="number"].form-control,input[type="email"].form-control,input[type="url"].form-control,input[type="search"].form-control,input[type="tel"].form-control,input[type="color"].form-control{font-size:12px;}
@@ -285,3 +286,11 @@ h2.price{margin:0;font-size:27px;color:#454545;}
     .product-thumb .button-group button{width:50%;}
     .product-thumb .button-group button+button{width:25%;}
 }
+
+.module-notice{width:100%;height:44px;padding:2px 0;margin-bottom:6px;background-color:#000;border:1px solid #b63132;}
+.module-notice .ui-label{width:225px;padding-left:46px;margin-right:20px;font-size:14px;color:#fff;position:relative;}
+.module-notice .ui-label:before{content:'';width:36px;height:36px;background:url('../images/notice.png') no-repeat center center;background-size:contain;position:absolute;left:6px;top:0;}
+.ui-notice{width:500px;height:100%;line-height:20px;overflow:hidden;}
+.ui-notice ul{padding:0;}
+.ui-notice a{color:#fff;text-decoration:none}
+.ui-notice .fontColor a{color:#eec350;transition:all 1.5s ease 0s}

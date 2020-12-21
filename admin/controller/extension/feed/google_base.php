@@ -250,7 +250,7 @@ class ControllerExtensionFeedGoogleBase extends Controller {
 			$filter_data = array(
 				'filter_name' => html_entity_decode($filter_name, ENT_QUOTES, 'UTF-8'),
 				'start'       => 0,
-				'limit'       => 5
+				'limit'       => 30
 			);
 
 			$results = $this->model_extension_feed_google_base->getGoogleBaseCategories($filter_data);
