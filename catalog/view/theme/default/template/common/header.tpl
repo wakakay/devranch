@@ -36,27 +36,33 @@
 <?php foreach ($analytics as $analytic) { ?>
 <?php echo $analytic; ?>
 <?php } ?>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0VY2S6806B"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-0VY2S6806B');
+</script>
 </head>
 <body class="<?php echo $class; ?>">
 
 <div class="ui-header">
   <div class="ui-container">
-    <div class="container" flex="dir:left box:last show:visible">
-      <div flex="dir:left box:first">
-        <div class="loginres">
-          <?php if (!$logged) { ?>
-          <?php echo $text_welcome; ?>
-          <?php } else { ?>
-          <?php echo $text_logged; ?>
-          <?php } ?>
-        </div>
-
-        <?php echo $search; ?>
+    <div class="container">
+      <div class="loginres">
+        <?php if (!$logged) { ?>
+        <?php echo $text_welcome; ?>
+        <?php } else { ?>
+        <?php echo $text_logged; ?>
+        <?php } ?>
       </div>
 
-       <div>
-         <div class="ui-cart-box"><?php echo $cart; ?></div>
-       </div>
+      <?php echo $search; ?>
+
+      <div class="ui-cart-box"><?php echo $cart; ?></div>
+
     </div>
   </div>
 </div>
@@ -79,6 +85,27 @@
           <p>THURSDAYS WILL NOW BE 10-5.30( No Late Night)</p>
         </div>
       </div>
+      <!--<div class="module-notice">
+        <h3>HOLIDAY TRADING HOURS</h3>
+        <div class="ui-notice" flex="box:mean">
+          <ul>
+            <li><a>25/12 Christmas day - CLOSED</a></li>
+            <li><a>26/12 Boxing day - CLOSED</a></li>
+            <li><a>27/12 Sunday - CLOSED</a></li>
+          </ul>
+          <ul>
+            <li><a>28/12 OPEN 10am -4pm ##</a></li>
+            <li><a>29/12 OPEN 10am-5.30pm</a></li>
+            <li><a>30/12 OPEN 10am-5.30pm</a></li>
+            <li><a>31/12 OPEN 10am-3pm ##</a></li>
+          </ul>
+          <ul>
+            <li><a>1/1/21 CLOSED</a></li>
+            <li><a>2/1/21 OPEN 9am-5.00pm</a></li>
+            <li><a>3/1/21 OPEN 10am-5.00pm</a></li>
+          </ul>
+        </div>
+      </div>-->
     </div>
 
     <div class="ui-contactus">
@@ -90,26 +117,6 @@
 </header>
 
 <div class="module-container">
-  <div class="container">
-    <div class="module-notice" flex="dir:left">
-      <div class="ui-label" flex-box="0" flex="cross:center">HOLIDAY TRADING HOURS</div>
-      <div class="ui-notice" flex-box="1">
-        <ul>
-          <li><a>25/12 Christmas day - CLOSED</a></li>
-          <li><a>26/12 Boxing day - CLOSED</a></li>
-          <li><a>27/12 Sunday - CLOSED</a></li>
-          <li><a>28/12 OPEN 10am -4pm ##</a></li>
-          <li><a>29/12 OPEN 10am-5.30pm</a></li>
-          <li><a>30/12 OPEN 10am-5.30pm</a></li>
-          <li><a>31/12 OPEN 10am-3pm ##</a></li>
-          <li><a>1/1/21 CLOSED</a></li>
-          <li><a>2/1/21 OPEN 9am-5.00pm</a></li>
-          <li><a>3/1/21 OPEN 10am-5.00pm</a></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
   <?php if ($categories) { ?>
   <div class="container">
     <nav class="module-menu navbar" flex="dir:left">
@@ -121,7 +128,7 @@
         <a href="<?php echo $categories[0]['href']; ?>"><?php echo $categories[0]['name']; ?></a>
       </h4>
 
-      <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <div class="navbar-collapse navbar-ex1-collapse collapse" aria-expanded="false" style="height:1px;">
         <ul class="nav navbar-nav">
             <li>
                 <a href="<?php echo $home; ?>">HOME</a>
@@ -137,50 +144,3 @@
   </div>
   <?php } ?>
 </div>
-<script>
-  (function ($) {
-    $.fn.FontScroll = function (options) {
-      var d = {time: 3000, s: 'fontColor', num: 1}
-      var o = $.extend(d, options);
-      this.children('ul').addClass('line');
-      var _con = $('.line').eq(0);
-      var _conH = _con.height();
-      var _conChildH = _con.children().eq(0).height();
-      var _temp = _conChildH;
-      var _time = d.time;
-      var _s = d.s;
-      _con.clone().insertAfter(_con);
-      var num = d.num;
-      var _p = this.find('li');
-      var allNum = _p.length;
-      _p.eq(num).addClass(_s);
-      var timeID = setInterval(Up, _time);
-      this.hover(function () {
-        clearInterval(timeID)
-      }, function () {
-        timeID = setInterval(Up, _time);
-      });
-
-      function Up() {
-        _con.animate({marginTop: '-' + _conChildH});
-        _p.removeClass(_s);
-        num += 1;
-        _p.eq(num).addClass(_s);
-        if (_conH == _conChildH) {
-          _con.animate({marginTop: '-' + _conChildH}, "normal", over);
-        } else {
-          _conChildH += _temp;
-        }
-      }
-
-      function over() {
-        _con.attr("style", 'margin-top:0');
-        _conChildH = _temp;
-        num = 1;
-        _p.removeClass(_s);
-        _p.eq(num).addClass(_s);
-      }
-    }
-    $('.ui-notice').FontScroll();
-  })(jQuery);
-</script>

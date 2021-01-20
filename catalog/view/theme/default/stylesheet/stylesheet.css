@@ -68,7 +68,7 @@ select.form-control,textarea.form-control,input[type="text"].form-control,input[
 .ui-header{height:36px;}
 .ui-header .ui-container{background:#1b1b1b;position:fixed;z-index:100;width:100%;height:36px;}
 .ui-header .ui-container{font:normal 12px/24px '';position:relative;}
-.ui-header .ui-container .loginres{width:260px;float:left;margin:0 0 0 15px;padding:6px 0 5px 0;color:#fff;}
+.ui-header .ui-container .loginres{float:left;margin-right:20px;padding:6px 0 5px 0;color:#fff;}
 .ui-header .ui-container .loginres span{display:block;text-indent:2em;}
 .ui-header .ui-container .loginres a{letter-spacing:1px;color:#fff;}
 .ui-header .ui-container .loginres a:hover{color:#23a1d1}
@@ -88,7 +88,7 @@ select.form-control,textarea.form-control,input[type="text"].form-control,input[
 .ui-header .ui-container .ui-cart-box .checkout{text-align:right;clear:both;}
 .ui-header .ui-container .ui-cart-box .empty{padding-top:50px;text-align:center;}
 
-.ui-header .ui-container .search{width:100%;height:36px;margin-right:20px;float:left;padding:6px 0 5px 0;}
+.ui-header .ui-container .search{height:36px;margin-right:20px;float:left;padding:6px 0 5px 0;}
 .ui-header .ui-container .search .button-search{background:url('../image/menu_bg.png') repeat-x left center;width:35px;height:100%;margin:0;padding:0;border:0;cursor:pointer;}
 .ui-header .ui-container .search .button-search img{vertical-align:inherit;}
 .ui-header .ui-container .search input{width:372px;height:100%;padding:0 14px;background:white;border:none;color:#343434;font:normal 12px/18px 'Arial';}
@@ -236,14 +236,45 @@ h2.price{margin:0;font-size:27px;color:#454545;}
 .module-contact .ui-form{width:60%;margin-right:5%;float:left;}
 .module-contact .ui-content{width:35%;float:left;}
 
+/* 圣诞节 */
+.common-home{background:url(../images/common-home.jpg) no-repeat center center;background-size:cover;}
+.common-home .module-container{background:rgba(0,0,0,.75);}
+.common-home .module-footer{background:rgba(0,0,0,.75);}
+.module-notice{width:100%;padding:10px 0;position:relative;z-index:100;}
+.module-notice h3{padding-left:40px;font-size:20px;color:#ffca21;}
+.module-notice .ui-notice{line-height:20px;overflow:hidden;}
+.module-notice .ui-notice ul{padding:0 0 0 40px;}
+.module-notice .ui-notice a{color:#fff;text-decoration:none}
+.module-notice .ui-notice .fontColor a{color:#eec350;transition:all 1.5s ease 0s}
+
+.snow-container { position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 999; }
+
 @media(max-width:478px){
+    html, body{overflow-x:hidden;}
+    .common-home{background-attachment:fixed;}
+    .common-home .module-container{background-color:transparent;}
+    .container{padding:0;}
     .ui-header-logo{display:inherit;margin-top:40px;}
     .ui-header-logo #logo{width:100%;margin:0;text-align:center;}
     .ui-header-logo #logo a{display:inline-block;}
+    .ui-header .ui-container .search{width:calc(100% - 20px);margin:0 10px;}
+    .ui-header .ui-container .search input{width:100%;}
+    .ui-header .ui-container .ui-cart-box{width:200px;position:absolute;right:0;top:0;}
+    .ui-header .ui-container .ui-cart-box .ui-cart{height:27px;background:url('../images/cart_bg.png') no-repeat}
+    .ui-header .ui-container .ui-cart-box .ui-cart a{width:104px;padding:0;}
+    .ui-header .ui-container .ui-cart-box .ui-cart p{height:27px;padding:0 4px;font-size:12px;font-weight:400;color:#fff;line-height:12px;}
+
+    .module-notice{padding:0;}
+    .module-notice h3{padding-left:26px;margin:10px 0;font-weight:700;}
+    .module-notice .ui-notice{display:block;}
+    .module-notice .ui-notice ul{width:50%;padding-left:20px;float:left;}
+    .module-notice .ui-notice ul:nth-of-type(2){position:relative;top:35px;}
+    .module-notice .ui-notice li{padding-left:6px;}
+
     .ui-introduce>div{padding:0;}
     .ui-introduce p{font-size:14px;line-height:18px;}
 
-    .ui-contactus{padding:5px;text-align:left;}
+    .ui-contactus{padding:5px 12px;text-align:left;}
     .ui-contactus span{width:100%;display:block;padding:0;font-size:12px;}
 
     .module-contact{}
@@ -253,9 +284,34 @@ h2.price{margin:0;font-size:27px;color:#454545;}
 
     #cart .dropdown-menu{width:100%;}
     #cart .dropdown-menu li>div{min-width:100%;}
+
+    #content{margin:0 10px;}
+    #content > h2{margin:6px 0;font-size:26px;}
+    #content > h3{margin:6px 0;font-size:20px;}
+    #content ul{padding-left:10px;}
+
+    #content h1{margin:6px 0;font-size:22px;}
+    #content .list-unstyled{padding-left:0;}
+    #content .list-unstyled h2{font-size:36px;}
+
+    .product-thumb .image{min-height:200px;text-align:center;line-height:200px;}
+    .navbar-collapse{width:100%;}
+    .module-menu, .module-menu>[flex]{display:block;}
+    .module-menu .visible-xs, .module-menu h4{padding:0 15px;margin:6px 0;text-align:left;}
+    .module-menu .nav{margin:0;}
+    .module-menu .nav li{padding:0;}
+    .module-menu .nav>li.cell-path>a:after{display:none;}
+
+    .pagination{padding:0 10px;}
+    .module-footer{padding:4px 20px 0;}
+    .module-footer p{text-align:center;}
 }
 
 @media(min-width:768px) and (max-width:991px){
+    .ui-header .ui-container .search input{width:200px;}
+    .ui-header .ui-container .ui-cart-box{width:230px;}
+    .ui-header .ui-container .ui-cart-box .ui-cart a{width:165px;padding:0 20px;margin-top:6px;}
+
     .ui-introduce p{font-size:20px;line-height:30px;}
     #content .col-sm-2:nth-child(6n+1),#content .col-sm-2:nth-child(6n+1),#content .col-sm-3:nth-child(4n+1),#content .col-sm-4:nth-child(3n+1),#content .col-sm-6:nth-child(2n+1){clear:left;}
     #column-left .product-layout .col-md-3{width:100%;}
@@ -286,11 +342,3 @@ h2.price{margin:0;font-size:27px;color:#454545;}
     .product-thumb .button-group button{width:50%;}
     .product-thumb .button-group button+button{width:25%;}
 }
-
-.module-notice{width:100%;height:44px;padding:2px 0;margin-bottom:6px;background-color:#000;border:1px solid #b63132;}
-.module-notice .ui-label{width:225px;padding-left:46px;margin-right:20px;font-size:14px;color:#fff;position:relative;}
-.module-notice .ui-label:before{content:'';width:36px;height:36px;background:url('../images/notice.png') no-repeat center center;background-size:contain;position:absolute;left:6px;top:0;}
-.ui-notice{width:500px;height:100%;line-height:20px;overflow:hidden;}
-.ui-notice ul{padding:0;}
-.ui-notice a{color:#fff;text-decoration:none}
-.ui-notice .fontColor a{color:#eec350;transition:all 1.5s ease 0s}

@@ -101,7 +101,6 @@
             <div class="image"><a href="<?php echo $product['href']; ?>"><img src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>" title="<?php echo $product['name']; ?>" class="img-responsive" /></a></div>
             <div>
               <div class="caption">
-                <p><?php echo $product['product_id']; ?></p>
                 <h4><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a></h4>
                 <p><?php echo $product['description']; ?></p>
                 <?php if ($product['price']) { ?>
@@ -151,5 +150,20 @@
       <?php } ?>
       <?php echo $content_bottom; ?></div>
     <?php echo $column_right; ?></div>
+
+<script>
+ $(function() {
+   var ua = navigator.userAgent;
+   var ipad = ua.match(/(iPad).*OS\s([\d_]+)/)
+   var isIphone =!ipad && ua.match(/(iPhone\sOS)\s([\d_]+)/)
+   var isAndroid = ua.match(/(Android)\s+([\d.]+)/)
+   var isMobile = isIphone || isAndroid
+
+   if (isMobile || isMobile.length) {
+     var scrollHeight = $(".breadcrumb").offset().top;
+     $('html,body').animate({scrollTop: scrollHeight}, 100);
+   }
+ })
+</script>
 </div>
 <?php echo $footer; ?>
