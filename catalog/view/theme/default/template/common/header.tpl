@@ -80,9 +80,10 @@
 
       <div class="ui-introduce" flex="main:center cross:center">
         <div>
-          <p>WE ARE STILL OPEN AND TRADING !! </p>
-          <p>RESTRINGS WHILE YOU WAIT !! </p>
-          <p>THURSDAYS WILL NOW BE 10-5.30( No Late Night)</p>
+          <p>TRADING HOURS</p>
+          <p>Monday, Tuesday, Wednesday, Thursday, Friday: 10-5: 30pm</p>
+          <p>Saturday: 9-5:00pm</p>
+          <p>Sunday & public holiday: 10-5:00pm</p>
         </div>
       </div>
       <!--<div class="module-notice">
@@ -120,7 +121,8 @@
   <?php if ($categories) { ?>
   <div class="container">
     <nav class="module-menu navbar" flex="dir:left">
-      <div class="navbar-header"><span id="category" class="visible-xs"><?php echo $text_category; ?></span>
+      <div class="navbar-header">
+        <!--<span id="category" class="visible-xs"><?php echo $text_category; ?></span>-->
         <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"><i class="fa fa-bars"></i></button>
       </div>
 

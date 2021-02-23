@@ -18,7 +18,25 @@
     <?php } ?>
   </div>
 <?php } else { ?>
-  <div class="module-menu navbar" flex="dir:left">
+  <nav class="module-menu navbar" flex="dir:left">
+    <div class="navbar-header">
+      <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-ex2-collapse"><i class="fa fa-bars"></i></button>
+    </div>
+
+    <h4 flex="main:center cross:center">
+      <a href="<?php echo $categories[1]['href']; ?>"><?php echo $categories[1]['name']; ?></a>
+    </h4>
+
+    <div class="navbar-collapse navbar-ex2-collapse collapse" aria-expanded="false" style="height:1px;">
+      <ul class="nav navbar-nav">
+        <?php foreach ($categories[1]['children'] as $category) { ?>
+        <li class="cell-path"><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
+        <?php } ?>
+      </ul>
+    </div>
+  </nav>
+
+  <!--<div class="module-menu navbar" flex="dir:left">
     <h4 flex="main:center cross:center">
       <a href="<?php echo $categories[1]['href']; ?>"><?php echo $categories[1]['name']; ?></a>
     </h4>
@@ -29,6 +47,6 @@
         <?php } ?>
       </ul>
     </div>
-  </div>
+  </div>-->
 <?php } ?>
 

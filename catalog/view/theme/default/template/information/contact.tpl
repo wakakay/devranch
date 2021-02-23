@@ -71,7 +71,8 @@
                     <?php echo $address; ?>
                   </address>
                   <?php if ($geocode) { ?>
-                  <a href="https://maps.google.com/maps?q=<?php echo urlencode($geocode); ?>&hl=<?php echo $geocode_hl; ?>&t=m&z=15" target="_blank" class="btn btn-info"><i class="fa fa-map-marker"></i> <?php echo $button_map; ?></a>
+                  <!--<a href="https://maps.google.com/maps?q=<?php echo urlencode($geocode); ?>&hl=<?php echo $geocode_hl; ?>&t=m&z=15" target="_blank" class="btn btn-info"><i class="fa fa-map-marker"></i> <?php echo $button_map; ?></a>-->
+                  <iframe src="<?php echo $geocode; ?>" width="100%" height="300" style="border:1px solid #ccc;" allowfullscreen="" loading="lazy"></iframe>
                   <?php } ?>
                 </div>
                 <div class="col-sm-12"><strong><?php echo $text_telephone; ?>:</strong>
