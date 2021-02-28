@@ -7,7 +7,7 @@ class ModelCatalogCategory extends Model {
 	}
 
 	public function getCategories($parent_id = 0) {
-	    if (!$parent_id) {
+	    if (!$parent_id || $parent_id == 324 || $parent_id == 325) {
 	        $order = " ORDER BY c.sort_order ASC";
 	    } else {
 	        $order = " ORDER BY LCASE(cd.name) ASC, c.sort_order ASC";
