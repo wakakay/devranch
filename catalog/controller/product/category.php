@@ -75,7 +75,6 @@ class ControllerProductCategory extends Controller {
 				}
 
 				$category_info = $this->model_catalog_category->getCategory($path_id);
-
 				if ($category_info) {
 					$data['breadcrumbs'][] = array(
 						'text' => $category_info['name'],
@@ -159,6 +158,7 @@ class ControllerProductCategory extends Controller {
 				);
 
 				$data['categories'][] = array(
+				    'category_id' => $result['category_id'],
 					'name' => $result['name'] . ($this->config->get('config_product_count') ? ' (' . $this->model_catalog_product->getTotalProducts($filter_data) . ')' : ''),
 					'href' => $this->url->link('product/category', 'path=' . $this->request->get['path'] . '_' . $result['category_id'] . $url)
 				);

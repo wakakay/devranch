@@ -26,7 +26,7 @@
 <?php foreach ($styles as $style) { ?>
 <link href="<?php echo $style['href']; ?>" type="text/css" rel="<?php echo $style['rel']; ?>" media="<?php echo $style['media']; ?>" />
 <?php } ?>
-<script src="catalog/view/javascript/common.js" type="text/javascript"></script>
+<script src="catalog/view/javascript/common.js?<?php echo $_SERVER['REQUEST_TIME']; ?>" type="text/javascript"></script>
 <?php foreach ($links as $link) { ?>
 <link href="<?php echo $link['href']; ?>" rel="<?php echo $link['rel']; ?>" />
 <?php } ?>
@@ -112,7 +112,11 @@
     <div class="ui-contactus">
       <span>PHONE: <a href="tel:98163666"> (02) 98163666</a></span>
       <span>EMAIL: <a class="email" href="https://web.archive.org/web/20200320233721/mailto:trumps@tennisranch.com.au">trumps@tennisranch.com.au</a></span>
-      <span>ADDRESS: 128 Victoria Road Gladesville , NSW, 2111</span>
+      <span>ADDRESS: 128 Victoria Road Gladesville, NSW, 2111
+         <a class="btn btn-info" onclick="handleGoogleMap()" id="googleMap" data-href="http://dwz.date/erkd"><i class="fa fa-map-marker"></i> Google Map</a>
+      </span>
+
+      <iframe src="" width="100%" height="300" class="ui-iframe" allowfullscreen="" loading="lazy"></iframe>
     </div>
   </div>
 </header>

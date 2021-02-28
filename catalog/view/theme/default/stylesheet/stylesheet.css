@@ -106,10 +106,12 @@ address{margin-bottom:6px;}
 .ui-introduce{width:100%;padding:10px 0;position:relative;z-index:100;}
 .ui-introduce>div{padding-right:40px;}
 .ui-introduce p{margin:0;padding:3px 0;font-size:26px;color:#fff;text-align:center;line-height:30px;}
-.ui-contactus{padding:5px 10px;text-align:center;}
+.ui-contactus{padding:5px 10px;text-align:center;position:relative;}
 .ui-contactus span{display:inline-block;padding:0 20px;}
 .ui-contactus span, .ui-contactus a{font-size:14px;color:#F58523;}
-.ui-contactus span:hover, .ui-contactus span:hover a{color:#b6ed2c;}
+.ui-contactus span:hover a{color:#b6ed2c;}
+.ui-contactus .btn-info{padding:3px 8px;font-size:12px;color:#fff;}
+.ui-contactus .ui-iframe{display:none;background-color:#ccc;border:1px solid #ccc;}
 #cart{margin-bottom:10px;}
 #cart>.btn{font-size:12px;line-height:18px;color:#FFF;}
 #cart.open>.btn{background-image:none;background-color:#fff;border:1px solid #e6e6e6;color:#666;box-shadow:none;text-shadow:none;}
@@ -277,6 +279,8 @@ h2.price{margin:0;font-size:27px;color:#454545;}
 
     .ui-contactus{padding:5px 12px;text-align:left;}
     .ui-contactus span{width:100%;display:block;padding:0;font-size:12px;}
+    .ui-contactus .btn-info{position:absolute;right:10px;top:22px;}
+    .ui-contactus .ui-iframe.is-add{display:block;}
 
     .module-contact{}
     .module-contact strong{padding-right:10px;}

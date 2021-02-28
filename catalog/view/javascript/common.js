@@ -376,6 +376,25 @@ $(document).delegate('.agree', 'click', function(e) {
   });
 });
 
+function handleGoogleMap() {
+  var url = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3314.1251669823164!2d151.1253273152093!3d-33.83488258066557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12a5708bf10f23%3A0x40b20327ffecf49b!2s128%20Victoria%20Rd%2C%20Gladesville%20NSW%202111%2C%20Australia!5e0!3m2!1sen!2stw!4v1614263225077!5m2!1sen!2stw'
+  var ua = navigator.userAgent;
+  var ipad = ua.match(/(iPad).*OS\s([\d_]+)/)
+  var isIphone =!ipad && ua.match(/(iPhone\sOS)\s([\d_]+)/)
+  var isAndroid = ua.match(/(Android)\s+([\d.]+)/)
+  var isMobile = isIphone || isAndroid
+
+  if (isMobile || isMobile && isMobile.length) {
+    $('.ui-iframe').toggleClass('is-add')
+
+    if (!$(".ui-iframe").attr("src")) {
+      $(".ui-iframe").attr("src", url)
+    }
+  } else {
+    window.open(url)
+  }
+}
+
 // Autocomplete */
 (function($) {
   $.fn.autocomplete = function(option) {

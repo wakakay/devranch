@@ -44,7 +44,7 @@
         <div class="col-sm-3">
           <ul>
             <?php foreach ($categories as $category) { ?>
-            <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a></li>
+            <li><a href="<?php echo $category['href']; ?>"><?php echo $category['name']; ?></a>-<?php echo $category['category_id']; ?></li>
             <?php } ?>
           </ul>
         </div>
@@ -160,7 +160,7 @@
    var isAndroid = ua.match(/(Android)\s+([\d.]+)/)
    var isMobile = isIphone || isAndroid
 
-   if (isMobile || isMobile.length) {
+   if (isMobile || isMobile && isMobile.length) {
      var scrollHeight = $(".breadcrumb").offset().top;
      $('html,body').animate({scrollTop: scrollHeight}, 100);
    }
